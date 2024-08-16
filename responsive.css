@@ -1,0 +1,81 @@
+@media screen and (max-width:576px) {
+    .btn{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .banner-main{
+        width: 100%;
+        /* border: 2px solid blue; */
+        flex-direction: column-reverse;
+       
+    }
+    .banner-right{
+        /* margin: 30px auto; */
+        max-width: 100%;
+        /* border: 2px solid blue; */
+    }
+    .banner-right img{
+        margin-left: 50px;
+        width: 70%;
+        
+    }
+    .banner-left{
+        margin-top: 30px;
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    .banner-left h1{
+        font-size: 30px;
+    } 
+    .logo{
+        flex-wrap: wrap;
+    }
+    .logo img{
+     width: 45%;
+    }
+    /* cart */
+    .collection{
+        margin-top: 100px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .collection h1{
+     font-size: 36px;
+    }
+    .cart-box{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .cart{
+        border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    }
+    .card p{
+        font-size: 10px;
+        color: rgb(120, 120, 133);
+    }
+
+    .feature{
+        flex-direction: column;
+        
+    }
+    .feature-left, .feature-right{
+        max-width: 100%;
+    }
+    .feature-right h2{
+        font-size: 20px;
+    }
+    .feature-right{
+        text-align: center;
+    }
+}
